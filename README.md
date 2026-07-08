@@ -1,3 +1,7 @@
+﻿<p align="center">
+  <img src="assets/hero.jpg" alt="Discord Codex Bridge hero" width="100%">
+</p>
+
 <h1 align="center">Discord Codex Bridge</h1>
 
 <p align="center">
@@ -5,10 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="#quick-start">Quick start</a> ·
-  <a href="#discord-setup">Discord setup</a> ·
-  <a href="#configuration">Configuration</a> ·
-  <a href="#security-model">Security</a> ·
+  <a href="#quick-start">Quick start</a> |
+  <a href="#discord-setup">Discord setup</a> |
+  <a href="#configuration">Configuration</a> |
+  <a href="#security-model">Security</a> |
   <a href="#troubleshooting">Troubleshooting</a>
 </p>
 
@@ -28,6 +32,10 @@ Discord channel -> discord.py bot -> Python bridge -> codex exec resume <session
 ```
 
 It is useful when you want to steer a local Codex thread from your phone, a shared private Discord channel, or a lightweight remote-control surface without keeping the Codex desktop app in front of you.
+
+<p align="center">
+  <img src="assets/architecture.jpg" alt="Discord Codex Bridge architecture" width="92%">
+</p>
 
 ```mermaid
 flowchart LR
@@ -323,4 +331,5 @@ You can copy that folder into your Codex skills directory if you want Codex to r
 
 ## Image Credits
 
-Earlier README bitmap images were removed because GitHub's raw image CDN can be blocked, cached, or rate-limited in some environments. The architecture is rendered with Mermaid so the README does not show broken image placeholders.
+The README images in `assets/` were generated for this repository with Codex image generation. They are documentation art, not screenshots of Discord, OpenAI, or Codex products. The Mermaid diagram is kept as a lightweight fallback and a copyable architecture reference.
+
