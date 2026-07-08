@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.png" alt="Discord Codex Bridge hero" width="100%">
+  <img src="assets/hero.jpg" alt="Discord Codex Bridge hero" width="100%">
 </p>
 
 <h1 align="center">Discord Codex Bridge</h1>
@@ -34,7 +34,7 @@ Discord channel -> discord.py bot -> Python bridge -> codex exec resume <session
 It is useful when you want to steer a local Codex thread from your phone, a shared private Discord channel, or a lightweight remote-control surface without keeping the Codex desktop app in front of you.
 
 <p align="center">
-  <img src="assets/architecture.png" alt="Discord Codex Bridge architecture" width="92%">
+  <img src="assets/architecture.jpg" alt="Discord Codex Bridge architecture" width="92%">
 </p>
 
 ## Features
