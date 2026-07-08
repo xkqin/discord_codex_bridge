@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/hero.jpg" alt="Discord Codex Bridge hero" width="100%">
-</p>
-
 <h1 align="center">Discord Codex Bridge</h1>
 
 <p align="center">
@@ -33,9 +29,17 @@ Discord channel -> discord.py bot -> Python bridge -> codex exec resume <session
 
 It is useful when you want to steer a local Codex thread from your phone, a shared private Discord channel, or a lightweight remote-control surface without keeping the Codex desktop app in front of you.
 
-<p align="center">
-  <img src="assets/architecture.jpg" alt="Discord Codex Bridge architecture" width="92%">
-</p>
+```mermaid
+flowchart LR
+    A["Private Discord Channel"] --> B["discord.py Bot"]
+    B --> C["Python Bridge"]
+    C --> D["Codex CLI"]
+    D --> E["Persisted Codex Session"]
+    C --> F["Local Transcript Log"]
+    E --> C
+    C --> B
+    B --> A
+```
 
 ## Features
 
@@ -319,4 +323,4 @@ You can copy that folder into your Codex skills directory if you want Codex to r
 
 ## Image Credits
 
-The README images in `assets/` were generated for this repository with Codex image generation. They are documentation art, not screenshots of Discord, OpenAI, or Codex products.
+Earlier README bitmap images were removed because GitHub's raw image CDN can be blocked, cached, or rate-limited in some environments. The architecture is rendered with Mermaid so the README does not show broken image placeholders.
